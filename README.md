@@ -16,7 +16,6 @@
     <li>Segments have to be in format `MM:SS` or `HH:MM:SS` and separated with <b>spaces</b>.</li>
     <li>Please write zero before minutes and seconds. I don't know if it make difference to be honest, but better be safe than sorry 😇</li>
     <li>All segments need to me in ascending order, so you can't write something like: 00:20 04:20 3:20, cause video can't end before it starts.</li>
-    <li></li>
   </ul>
   > You don't need to figure out the end of the video, I took care of it, so if video has 5 minutes and your last segment is at 4 minutes mark - it will cut from 04:00 to 05:00
 </details>
@@ -38,6 +37,25 @@
     <li>Done! It should give you a file in format: "{ORIGINAL_FILE_NAME}-timecodesf.txt"</li>
   </ol>
 </details>
+
+<style>
+    details {
+        margin: 0;
+        padding: 4px 8px;
+        font-size: 1.4rem;
+        border: 2px solid #12121220;
+        background-color: #dedede;
+    }
+    
+    details[open] summary {
+        margin-bottom: 2rem;
+        border-bottom: 1px solid black;
+    }
+    
+    pre {
+        border: 1px dashed #12121280;
+    }
+</style>
 <details>
   <summary>I have a ✨special✨ text file, now what?</summary>
   Now it it the easiest part. You just open segment.py and you find your files on the list! FFMPEG should open after choosing your ✨special✨ file with timecodes.
