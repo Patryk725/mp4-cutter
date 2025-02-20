@@ -17,7 +17,7 @@
     <li>All segments need to me in ascending order, so you can't write something like: 00:20 04:20 3:20, cause video can't end before it starts.</li>
     <li>Please write zero before minutes and seconds. I don't know if it make difference to be honest, but better be safe than sorry 😇</li>
   </ul>
-  🧐 You don't need to figure out the end of the video, I took care of it, so if video has 5 minutes and your last segment is at 4 minutes mark - it will cut from 04:00 to 05:00
+  🧐 You don't need to figure out the end of the video, I took care of it, so if video has 5 minutes and your last segment is at 4 minutes mark - it will cut from 04:00 to 05:00.
 </details>
 <details>
   <summary><h2>What if I have time codes in different format?</h2></summary>
