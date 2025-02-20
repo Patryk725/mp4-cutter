@@ -32,7 +32,7 @@ POLSKI README WYGENEROWAŁEM CHATEMGPT!!!
   <ol>
     <li>Utwórz i otwórz pusty plik .txt</li>
     <li>Wklej swoje surowe kody czasowe</li>
-    <li>Otwórz `format.py` z mojego repozytorium w tym samym folderze co plik .txt</li>
+    <li>Otwórz <code>format.py</code> z mojego repozytorium w tym samym folderze co plik .txt</li>
     <li>Pliki zostaną wyświetlone. Wybierz swój plik z kodami czasowymi używając numerów na klawiaturze.</li>
     <li>Gotowe! Powinno to dać Ci plik w formacie: "{ORIGINAL_FILE_NAME}-timecodesf.txt"</li>
   </ol>
