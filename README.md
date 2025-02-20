@@ -5,7 +5,7 @@
 > TODO: HOW DOES IT WORK UNDER THE HOOD.
 
 <details>
-  <summary<h2>Why did you do that and when should I use it</h2></summary>
+  <summary><h2>Why did you do that and when should I use it</h2></summary>
   <strong>I made it, because I prefer to make long videos and add timecodes later</strong>. If you are working on a long video, you can automatically cut all the fragments into separate, small videos, then <strong>you may want to make shorts out of long video fragments</strong>, this small tool is for you! This tool will help you divide your long video into a smaller parts.
 </details>
 <details>
