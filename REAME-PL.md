@@ -1,5 +1,7 @@
 # mp4-cutter
 
+POLSKI README WYGENEROWAŁEM CHATEMGPT!!!
+
 👉 mp4-cutter to bardzo proste narzędzie do przycinania wideo na podstawie ✨specjalnego✨ pliku tekstowego.  
 > STWORZYŁEM README.md ZANIM STWORZYŁEM FORMAT.py, WIĘC MUSISZ CZEKAĆ.  
 > TODO: JAK TO DZIAŁA POD "MASKĄ".
