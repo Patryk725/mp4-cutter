@@ -2,17 +2,16 @@
 
 POLSKI README WYGENEROWAŁEM CHATEMGPT!!!
 
-👉 mp4-cutter to bardzo proste narzędzie do przycinania wideo na podstawie ✨specjalnego✨ pliku tekstowego.  
-> STWORZYŁEM README.md ZANIM STWORZYŁEM FORMAT.py, WIĘC MUSISZ CZEKAĆ.  
-> TODO: JAK TO DZIAŁA POD "MASKĄ".
+👉 mp4-cutter to bardzo proste narzędzie do przycinania wideo na podstawie ✨specjalnego✨ pliku tekstowego.
 
+<h2>Być może masz kilka pytań. Na przykład:</h2>
 <details>
   <summary><h2>Dlaczego to zrobiłeś i kiedy powinienem tego używać?</h2></summary>
   <strong>Zrobiłem to, ponieważ wolę nagrywać długie filmy i dodawać kody czasowe później</strong>. Jeśli pracujesz nad długim wideo, możesz automatycznie przyciąć wszystkie fragmenty na osobne, małe filmy, a następnie <strong>możesz chcieć zrobić krótkie filmy z długich fragmentów wideo</strong>, to narzędzie jest dla Ciebie! To narzędzie pomoże Ci podzielić długi film na mniejsze części.
 </details>
 <details>
   <summary><h2>Jak to używać?</h2></summary>
-  Przede wszystkim <strong>musisz mieć zainstalowane i skonfigurowane <img src="https://static.cdnlogo.com/logos/f/33/ffmpeg.svg" width="36" alt="ffmpeg icon"/><u>ffmpeg</u> oraz <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="24" alt="python icon"/><u>python</u> na swoim urządzeniu.</strong>. Następnie potrzebujesz specjalnego pliku tekstowego z kodami czasowymi wideo, który wskaże programowi, jak przycinać wideo. Przykładowa zawartość pliku <code>segments.txt</code>: <code>00:00 02:20 04:24 06:25 08:00</code>.  
+  Przede wszystkim <strong>musisz mieć zainstalowane i skonfigurowane <img src="https://img.icons8.com/?size=100&id=32418&format=png&color=000000" width="24" alt="ffmpeg icon"/><u>ffmpeg</u> oraz <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="24" alt="python icon"/><u>python</u> na swoim urządzeniu.</strong>. Następnie potrzebujesz specjalnego pliku tekstowego z kodami czasowymi wideo, który wskaże programowi, jak przycinać wideo. Przykładowa zawartość pliku <code>segments.txt</code>: <code>00:00 02:20 04:24 06:25 08:00</code>.  
   Oto kilka ważnych uwag dotyczących tego, aby Twój plik działał:
   <ul>
     <li>Segmenty muszą być w formacie <code>MM:SS</code> lub <code>HH:MM:SS</code> i oddzielone <b>spacjami</b>.</li>
