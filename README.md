@@ -1,8 +1,6 @@
 # mp4-cutter
 
 👉 mp4-cutter is a very simple tool for cutting videos based on a ✨special✨ text file.
-> I MADE README.md BEFORE FORMAT.py, SO YOU HAVE TO WAIT.
-> TODO: HOW DOES IT WORK UNDER THE HOOD.
 
 <h2>You may ask yourself...</h2>
 <details>
@@ -11,7 +9,7 @@
 </details>
 <details>
   <summary><h2>So, how do I use it?</h2></summary>
-  First of all, <strong>you have to have <img src="https://static.cdnlogo.com/logos/f/33/ffmpeg.svg" width="36" alt="ffmpeg icon"/><u>ffmpeg</u> and <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="24" alt="python icon"/><u>python</u> installed and configured on your device.</strong>. Then, you need a special text file with timecodes of your video, it will tell the program how to cut your videos. Example content of <code>segments.txt</code>: <code>00:00 02:20 04:24 06:25 08:00</code>. 
+  First of all, <strong>you have to have <img src="https://img.icons8.com/?size=100&id=32418&format=png&color=000000" width="36" alt="ffmpeg icon"/><u>ffmpeg</u> and <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="24" alt="python icon"/><u>python</u> installed and configured on your device.</strong>. Then, you need a special text file with timecodes of your video, it will tell the program how to cut your videos. Example content of <code>segments.txt</code>: <code>00:00 02:20 04:24 06:25 08:00</code>. 
   Here are some key notices for your file to work:
   <ul>
     <li>Segments have to be in format <code>MM:SS</code> or <code>HH:MM:SS</code> and separated with <b>spaces</b>.</li>
@@ -32,7 +30,7 @@
   <ol>
     <li>Create and open blank .txt file</li>
     <li>Paste in your raw timecdoes</li>
-    <li>Open `format.py` from my repo in the same folder as .txt file</li>
+    <li>Open <code>format.py</code> from my repo in the same folder as .txt file</li>
     <li>Files will show. Choose your file with timestamps using keyboard numbers.</li>
     <li>Done! It should give you a file in format: "{ORIGINAL_FILE_NAME}-timecodesf.txt"</li>
   </ol>
