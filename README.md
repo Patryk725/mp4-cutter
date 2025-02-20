@@ -10,7 +10,7 @@
 </details>
 <details>
   <summary>So, how do I use it?</summary>
-  First of all, <strong>you have to have <img src="https://static.cdnlogo.com/logos/f/33/ffmpeg.svg" width="24" alt="ffmpeg icon"/>`ffmpeg` and <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="24" alt="python icon"/>`python` installed and configured on your device.</strong>. Then, you need a special text file with timecodes of your video, it will tell the program how to cut your videos. Example content of `segments.txt`: `00:00 02:20 04:24 06:25 08:00`. 
+  First of all, <strong>you have to have <img src="https://static.cdnlogo.com/logos/f/33/ffmpeg.svg" width="36" alt="ffmpeg icon"/>`ffmpeg` and <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="24" alt="python icon"/>`python` installed and configured on your device.</strong>. Then, you need a special text file with timecodes of your video, it will tell the program how to cut your videos. Example content of `segments.txt`: `00:00 02:20 04:24 06:25 08:00`. 
   Here are some key notices for your file to work:
   <ul>
     <li>Segments have to be in format `MM:SS` or `HH:MM:SS` and separated with <b>spaces</b>.</li>
